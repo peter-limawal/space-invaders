@@ -38,7 +38,7 @@ class SpaceInvaders : Application() {
 
         children.addAll(instrCommEnter, instrCommMove, instrCommSpace, instrCommQuit, instrCommLevel)
     }
-    private val studentID = Label("Implemented by Peter Limawal (20902549) for CS 349, University of Waterloo, S23")
+    private val studentID = Label("Implemented by Peter Limawal for CS 349, University of Waterloo, S23")
 
     override fun start(stage: Stage) {
         val centrePane = VBox().apply {
@@ -60,7 +60,7 @@ class SpaceInvaders : Application() {
 
         with (stage) {
             scene = Scene(root, MAX_WIDTH, MAX_HEIGHT)
-            title = "A3 Space Invaders - Peter Limawal"
+            title = "Space Invaders - Peter Limawal"
             isResizable = false
             show()
 
